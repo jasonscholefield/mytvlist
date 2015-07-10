@@ -6322,3 +6322,28 @@ th.hide-for-touch {
 @media not print {
   .show-for-print {
     display: none !important; } }
+.row {
+  max-width: 72rem; }
+
+.header h1 {
+  font-weight: bold; }
+.header .button {
+  border: 2px solid #008CBA;
+  padding: 0.75rem 1.5rem;
+  margin: 0.75rem 0; }
+.header .button:hover {
+  border: 2px solid #007095; }
+.header .ghost {
+  color: #008CBA;
+  border: 2px solid #008CBA;
+  background: transparent;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+.header .ghost:hover {
+  color: #fff;
+  background: #007095;
+  border: 2px solid #007095; }
+
+.orbit-slide-number {
+  display: none; }
